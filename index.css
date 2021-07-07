@@ -1,14 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'DotGothic16', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #2D3142;
+  font-size: 1.2rem;
+}
+
 .clock-wrapper .clock {
   margin: 5em auto;
-  background-color: #9fcc56;
+  background-color: #D8D5DB;
   width: 400px;
-  height: 150px;
+  height: 200px;
   text-align: center;
   border-radius: 20px;
 }
 
 .clock-wrapper .clock #clock_time {
-  background-color: rgba(255, 255, 255, 0.514);
+  background-color: #EAE8FF;
   display: inline-block;
   width: 300px;
   margin: 2em 0 0 0;
@@ -17,7 +28,7 @@
 }
 
 .clock-wrapper .clock #clock_date {
-  background-color: rgba(255, 255, 255, 0.514);
+  background-color: #EAE8FF;
   display: inline-block;
   width: 300px;
   padding: 0 1em 1em 1em;

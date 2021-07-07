@@ -1,13 +1,27 @@
+$background_color: #D8D5DB;
+$screen_color: #EAE8FF;
+$font_color: #2D3142;
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'DotGothic16', sans-serif;
+    box-sizing: border-box;
+    color: $font_color;
+    font-size: 1.2rem;
+}
+
 .clock-wrapper{
     .clock{
         margin: 5em auto;
-        background-color: rgb(159, 204, 86);
+        background-color: $background_color;
         width: 400px;
-        height: 150px;
+        height: 200px;
         text-align: center;
         border-radius: 20px;
         #clock_time{
-            background-color: rgba(255, 255, 255, 0.514);
+            background-color: $screen_color;
             display: inline-block;
             width: 300px;
             margin: 2em 0 0 0;
@@ -15,7 +29,7 @@
             border-radius: 20px 20px 0 0;
         }
         #clock_date{
-            background-color: rgba(255, 255, 255, 0.514);
+            background-color: $screen_color;
             display: inline-block;
             width: 300px;
             padding: 0 1em 1em 1em;
